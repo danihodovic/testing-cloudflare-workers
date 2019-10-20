@@ -1,0 +1,11 @@
+---
+language: node_js
+
+node_js:
+  - 11
+
+jobs:
+  include:
+    - name: Test
+      script:
+        - npm test
