@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha 'test/**/*.test.js'"
+    "test": "mocha 'test/**/*.test.js' --exit"
   },
   "keywords": [],
   "author": "",
@@ -22,14 +22,19 @@
     "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.7.0",
+    "express": "^4.17.1",
     "form-data": "^2.5.1",
     "mocha": "^6.2.1",
     "ndb": "^1.1.5",
     "nock": "^11.3.5",
     "sinon": "^7.5.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "express": "^4.17.1"
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "typescript": "^3.7.2"
   }
 }
